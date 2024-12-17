@@ -1,16 +1,55 @@
-# emergesense
+# EmergeSense
 
-A new Flutter project.
+EmergeSense is an AI-powered disaster response system that leverages Flutter for the frontend and Node.js with Express and MongoDB for the backend. The system aims to provide efficient and effective disaster response by allowing users to report disasters, upload images, and view reported disasters with their locations and severity.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) for iOS development
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Backend
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/emergesense-backend.git
+    cd emergesense-backend
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Start the server:
+    ```sh
+    npm start
+    ```
+
+#### Frontend
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/emergesense-frontend.git
+    cd emergesense-frontend
+    ```
+
+2. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+
+3. Run the application:
+    ```sh
+    flutter run
+    ```
+
+### Project Structure
+
+#### Backend
