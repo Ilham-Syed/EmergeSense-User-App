@@ -106,12 +106,12 @@ class _ReportedDisasterPageState extends State<ReportedDisasterPage> {
     switch (severity.toLowerCase()) {
       case 'severe disaster':
         return Colors.red;
-      case 'Moderate disaster':
+      case 'moderate disaster':
         return Colors.orange;
       case 'less severe disaster':
         return Colors.yellow[700]!;
       default:
-        return Colors.green;
+        return Colors.red;
     }
   }
 }
